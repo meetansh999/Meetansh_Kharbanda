@@ -1,40 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meetansh Kharbanda - Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
+<body class="bg-gray-100 text-gray-900 font-sans">
 
   <header class="bg-white shadow p-6">
-    <h1 class="text-3xl font-bold">Your Name</h1>
-    <p class="text-lg">AI Engineer | Tech Enthusiast </p>
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-4xl font-bold">Meetansh Kharbanda</h1>
+      <p class="text-lg text-gray-600">AI Enthusiast | Computer Engineer | Problem Solver</p>
+    </div>
   </header>
 
-  <main class="p-6">
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-      <p>Hello! I'm a developer with a passion for building cool things. Here's a showcase of my work.</p>
-    </section>
+  <main class="max-w-6xl mx-auto p-6">
+    <!-- About Me Section -->
+    <section class="max-w-4xl mx-auto p-6 bg-white shadow rounded-lg">
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+        <!-- Profile Image Placeholder -->
+        <div class="w-40 h-40 bg-gray-200 rounded-full flex-shrink-0"></div>
 
-    <section>
-      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-      <div class="space-y-6">
-        <div class="p-4 bg-white shadow rounded">
-          <h3 class="text-xl font-bold">Project Name</h3>
-          <p class="mb-2">Short description of your project.</p>
-          <a href="https://github.com/yourusername/project" class="text-blue-600 hover:underline">View on GitHub</a>
+        <!-- Text Content -->
+        <div>
+          <h2 class="text-3xl font-bold mb-2">Meetansh Kharbanda</h2>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            I'm a recent Computer Engineering graduate from Queen’s University, with a strong passion for AI, machine learning, and real-world impact. I recently completed my role as an AI Consultant at QMIND (2022–2024), where I contributed to an NLP chatbot now used by over 100,000 users. My Capstone project on oil spill detection, built using UNet-MobileNetV3 and SAR data, secured <strong>2nd place</strong> at Queen’s Engineering Showcase 2025.
+          </p>
+          <p class="text-gray-700 mb-4">
+            I'm experienced in deep learning, data analytics, computer vision, and cloud platforms like Google Cloud. My toolkit includes Python, PyTorch, OpenCV, TensorFlow, and more. I'm passionate about building intelligent, ethical systems that address global challenges — one line of code at a time.
+          </p>
+
+          <!-- Buttons -->
+          <div class="flex flex-wrap gap-4 mt-4">
+            <a href="assets/Resume_MeetanshK.pdf" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" download>
+              📄 Download Resume
+            </a>
+            <a href="https://www.linkedin.com/in/mk999/" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900" target="_blank">
+              🔗 LinkedIn
+            </a>
+            <a href="https://github.com/meetansh999" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900" target="_blank">
+              💻 GitHub
+            </a>
+          </div>
         </div>
+      </div>
 
-        <!-- Add more projects like this -->
+      <!-- Featured Projects -->
+      <div class="mt-8">
+        <h3 class="text-2xl font-semibold mb-4">🌟 Featured Projects</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>
+            <a href="https://github.com/meetansh999/oil-spill-segmentation" class="text-blue-600 hover:underline" target="_blank">
+              Capstone - Oil Spill Detection with UNet-MobileNetV3
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/meetansh999/ensemble-classification" class="text-blue-600 hover:underline" target="_blank">
+              Ensemble Image Classification with CNNs on CIFAR-100
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/meetansh999/length-of-stay-prediction" class="text-blue-600 hover:underline" target="_blank">
+              Length of Stay Prediction for Hospital Admissions
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/meetansh999/fraud-analysis" class="text-blue-600 hover:underline" target="_blank">
+              Fraud Pattern Detection using Clustering & Decision Trees
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
 
-  <footer class="text-center p-6 mt-12 bg-gray-200">
-    <p>📫 Contact me at <a href="mailto:you@example.com" class="text-blue-600">you@example.com</a></p>
+  <footer class="text-center text-sm text-gray-600 p-4">
+    &copy; 2025 Meetansh Kharbanda. All rights reserved.
   </footer>
 
 </body>
